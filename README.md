@@ -4,7 +4,6 @@ pybgpasn is a Python package for looking up Autonomous System Number (ASN) infor
 
 
 ## Installation
-
 You can install pybgpasn using pip:
 
 ```sh 
@@ -15,7 +14,6 @@ pip install pybgpasn
 ## Usage
 
 ### Basic Usage
-
 To use pybgpasn, first create an instance of the ASNCatalog class:
 
 ```sh 
@@ -36,7 +34,6 @@ print(provider_name)  # prints "Google LLC"
 ```
 
 ### Private ASNs
-
 If the provided ASN falls within the range of 64512 to 65535 (inclusive), the get_provider_name method will return "PRIVATE AS":
 
 ```sh 
@@ -79,7 +76,6 @@ except ValueError as e:
 ```
 
 ## License
-
 pybgpasn is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Acknowledgments
