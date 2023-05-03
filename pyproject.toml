@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "pybgpasn"
+version = "1.0.13"
+description = "A small package for obtaining the Registered ISP name per ASN number"
+authors = ["Melih Teke <me@mteke.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/melihteke/pybgpasn"
+repository = "https://github.com/melihteke/pybgpasn"
+documentation = "https://github.com/melihteke/pybgpasn/blob/master/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
